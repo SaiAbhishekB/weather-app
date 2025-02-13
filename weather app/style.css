@@ -1,0 +1,109 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: opacity 0.5s ease-in-out;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Main Container */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+/* Input Field */
+input {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #0056b3;
+    box-shadow: 0px 0px 8px rgba(0, 91, 187, 0.5);
+}
+
+/* Button Styles */
+button {
+    margin-top: 10px;
+    padding: 12px 18px;
+    border: none;
+    background: linear-gradient(135deg, #007BFF, #0056b3);
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #0056b3, #004080);
+    transform: scale(1.05);
+}
+
+#toggleButton {
+    background: #28a745;
+}
+
+#toggleButton:hover {
+    background: #1e7e34;
+}
+
+/* Weather Result Styling */
+#weatherResult {
+    margin-top: 20px;
+}
+
+#weatherIcon {
+    width: 80px;
+    height: 80px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+h2 {
+    font-size: 22px;
+    margin: 10px 0;
+    color: #007BFF;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Error Message */
+#errorMessage {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Hide Elements */
+.hidden {
+    display: none;
+}
